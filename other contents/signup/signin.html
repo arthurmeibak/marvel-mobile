@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="items-wrapper-upper">
+            <img class="marvel-logo" src="./Assets/Marvel-Logo.png" alt="marvel logo">
+
+            <form action="" id="loginForm" class="d-flex direction-column" method="post" name="loginForm">
+                <input type="text" name="email" id="email" class="email" placeholder="Email or phone number" onchange="validateEmail()" required/>
+                <p class="error-email" id="errorEmail">Please enter a valid email address or phone number.</p>
+
+                <input type="password" name="password" id="password" placeholder="Password" required/>
+                <p id="errorPassword">Your password must contain between 4 and 60 characters.</p>
+
+                <button type="submit" class="button submitButton" id="signInButton" disabled="disabled">
+                    <a <!--href=""-->Sign In</a>
+                </button>
+
+                <div class="rememberMe">
+                    <input type="checkbox" name="rememberMe" id="rememberMe" class="rememberMe-box">
+                    <label for="rememberMe"><span class="login-remember-me-label-text">Remember me</span></label>
+                </div>
+                <p class="signUpText para">
+                    New to Marvel? <span class="signUp"><a href="/register.html">Sign up Now</a></span>
+                </p>
+                <p class="bottomMessage para">
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot
+                </p>
+            </form>
+      
+
+    </section>
+
+</body>
+
+</html>
