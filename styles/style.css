@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /*==========Base==========*/
-* {
+/** {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -38,11 +38,11 @@ body {
 	background-attachment: local;
 }
 
-/*.marvel-logo {
+.marvel-logo {
 	bottom: 15rem;
 	display: flex;
 	justify-content: center;
-	margin: 25rem 0 2rem 0;*/
+	margin: 25rem 0 2rem 0;
 }
 
 h1 {
@@ -73,4 +73,4 @@ button:hover {
 .button-continue {
 	text-decoration: none;
 	color: #fff;
-}
+}*/
