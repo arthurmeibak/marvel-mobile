@@ -79,13 +79,12 @@ body {
   color: #DAC8BA;
 }
 
-*/.projects__container {
+.projects__container {
   grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 50%;
   column-gap: 10px;
   row-gap: 15px;
   margin: 1rem;
-}*/
+}
 
 .project__img {
   width: 100%;
