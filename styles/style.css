@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/*==========Base==========*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-family: 'Inter', sans-serif;
+	color: #eeeeee;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(0, 0, 0);
+}
+
+.container {
+	position: relative;
+	max-width: 24rem;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4),
+			rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 1), rgb(0, 0, 0, 1), rgb(0, 0, 0, 1)),
+		url(../assets/Cover-ironman.png);
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: local;
+}
+
+.marvel-logo {
+	display: flex;
+	justify-content: center;
+	bottom: 15rem;
+	margin: 20rem 0 2rem 0;
+	max-width: 14rem;
+}
+
+h1 {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+
+button {
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #ED1B24;
+	height: 2.5rem;
+	width: 18rem;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ed1b26bb;
+	transition: all 0.3s ease;
+}
+
+.button-continue {
+	text-decoration: none;
+	color: #fff;
+}
